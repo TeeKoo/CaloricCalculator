@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Check your calories!</string>
+    <string name="app_name">Calorie Counter</string>
+    <string name="OpeningString"></string>
+    <string name="countCalorie">Count your calories!</string>
+    <string name="weightR">Weight(kg):</string>
+    <string name="ageR">Age:</string>
+    <string name="heightR">Height(cm):</string>
+    <string name="countButtonR">Count</string>
+    <string name="consumptionR">Your caloric consumption is:</string>
+    <string name="resultR">0</string>
+    <string name="zeroR">zero</string>
+    <string name="kcalfinal">0</string>
+    <string name="counterString">0</string>
+
+    <!-- Spinners stuff -->
+    
+    <string-array name="gender">
+        <item id="maleid">Male</item>
+        <item id="femaleid">Female</item>
+    </string-array>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="28dp"
+        android:text="@string/countCalorie"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="388dp"
+        android:text="@string/consumptionR"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="124dp"
+        android:text="@string/weightR"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="114dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="171dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="96dp"
+        android:layout_y="180dp"
+        android:text="@string/ageR"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="228dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="238dp"
+        android:text="@string/heightR"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="176dp"
+        android:layout_height="70dp"
+        android:layout_x="77dp"
+        android:layout_y="292dp"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:fitsSystemWindows="false"
+        android:soundEffectsEnabled="true"
+        android:text="@string/countButtonR" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="166dp"
+        android:layout_y="397dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_x="143dp"
+        android:layout_y="62dp"
+        android:alwaysDrawnWithCache="false"
+        android:clickable="true" >
+
+        <!-- Preview: listitem=@android:layout/simple_spinner_item -->
+    </Spinner>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="72dp"
+        android:text="Gender:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</AbsoluteLayout>
